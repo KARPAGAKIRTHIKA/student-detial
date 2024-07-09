@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-function Headercomponent(props) {
+function HeaderComponent(props) {
     const [isClicked, setIsClicked] = useState(false);
 
     const handleClick = () => {
@@ -24,4 +24,4 @@ function Headercomponent(props) {
   )
 }
 
-export default Headercomponent;
+export default HeaderComponent;
